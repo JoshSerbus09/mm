@@ -11,3 +11,8 @@
  *= require_self
  *= require_tree .
  */
+
+ .main_body {
+ 	background-color: 6600CC;
+ 	width: 75%;
+ }
