@@ -1,15 +1,43 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Maverk Munchies</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body class="main_body">
+<html style="background-color: #660066;">
+	<head>
+	  <title>Maverk Munchies</title>
+	  <%= stylesheet_link_tag    "application", :media => "all" %>
+	  <%= javascript_include_tag "application" %>
+	  <%= csrf_meta_tags %>
 
-<%= yield %>
+	  <link href='http://fonts.googleapis.com/css?family=Rosario:400italic,400' rel='stylesheet' type='text/css'>
+	</head>
 
-</body>
-<p><strong>A web application by Joshua Serbus and Cody Stegeman</strong></p>
+	<body>
+		<div id="wrapper_main">
+				<header>
+					<div id="nav">
+						<ul id="nav_left">
+							<li>Find a Restaurant</li>
+							<li>Order Now</li>
+							<li>Specials</li>
+						</ul>
+
+						<ul id="nav_right">
+							<li>Log In</li>
+							<li>Sign Up</li>
+							<li>Settings</li>
+						</ul>
+					</div>
+
+					<div id="title_div">
+						<h1>Welcome to Maverick Munchies!</h1>
+						<h2>The Interactive Mankato Dining Menu</h2>
+					</div>
+				</header>
+
+				<div id="content_main">
+					<%= yield %>
+				</div>
+		</div>
+	</body>
+	<footer style="margin-left: 13%;">
+		<strong>A web application by Joshua Serbus and Cody Stegeman</strong>
+	</footer>
 </html>
