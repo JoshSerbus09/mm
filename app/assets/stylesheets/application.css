@@ -30,7 +30,7 @@
 
  #nav {
  	height: 22%;
- 	margin: 3px 0px 0px 0px;
+ 	margin: 1px 0px 0px 0px;
  	border-bottom: 2px solid black;
  }
 
@@ -63,19 +63,19 @@
  #title_div {
  	margin-top: 0px;
  	padding: 10px 15px 5px 15px;
- 	height: 75%;
+ 	height: 73%;
  }
 
  #title_div, h1 {
- 	font-size: 40px;
+ 	font-size: 48px;
  	font-family: 'Rosario', sans-serif;
  	font-style: normal;
  	margin: 2px 0px;
  }
 
  #title_div, h2 {
- 	margin: 0px 0px 0px 5px;
-	font-size: 20px;
+ 	margin: 0px 0px 0px 8px;
+	font-size: 16px;
  	font-family: 'Rosario', sans-serif;
  	font-style: italic;
  }
