@@ -7,11 +7,17 @@
 	  <%= csrf_meta_tags %>
 
 	  <link href='http://fonts.googleapis.com/css?family=Rosario:400italic,400' rel='stylesheet' type='text/css'>
+	  <link href='http://fonts.googleapis.com/css?family=Roboto:500' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
 		<div id="wrapper_main">
 				<header>
+					<div id="title_div">
+						<h1>Maverick Munchies</h1>
+						<h4>The Interactive Mankato Area Dining Menu</h4>
+					</div>
+				
 					<div id="nav">
 						<ul id="nav_left">
 							<li><%= link_to "Home", "/" %></li>
@@ -26,19 +32,18 @@
 							<li>Settings</li>
 						</ul>
 					</div>
-
-					<div id="title_div">
-						<h1>Maverick Munchies</h1>
-						<h2>The Interactive Mankato Area Dining Menu</h2>
-					</div>
 				</header>
 
-				<div id="content_main">
+				<div id="message_banner">
+					Maverick Munchies is an interactive dining menu for the Mankato area allowing you to make the best food selections without the hassle of endless internet searching. The site is currently under construction, but our developers are working very hard to have it in production as soon as possible. Thanks for visiting!
+				</div>
+
+				<div id="content_body">
 					<%= yield %>
 				</div>
 		</div>
 	</body>
-	<footer style="margin-left: 13%;">
+	<footer style="margin-left: 13%; color: white;">
 		<strong>A web application by Joshua Serbus and Cody Stegeman</strong>
 	</footer>
 </html>
