@@ -20,7 +20,7 @@
 
  header{
  	border-bottom: solid 2px black;
- 	height: 180px;
+ 	height: 190px;
  }
 
  #content_main {
@@ -29,12 +29,18 @@
  }
 
  #nav {
- 	height: 20%;
+ 	height: 22%;
  	margin: 3px 0px 0px 0px;
+ 	border-bottom: 2px solid black;
+ }
+
+ #nav, a {
+ 	text-decoration: none;
  }
 
  #nav_left {
  	float: left;
+ 	padding: 2px 1px 2px 1px;
  }
 
  #nav_left, li {
@@ -45,6 +51,7 @@
 
  #nav_right {
  	float: right;
+ 	padding: 2px 1px 2px 1px;
  }
 
  #nav_right, li {
