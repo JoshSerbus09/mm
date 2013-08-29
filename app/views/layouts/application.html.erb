@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html style="background-color: #660066;">
 	<head>
-	  <title>Maverk Munchies</title>
+	  <title>Maverick Munchies</title>
 	  <%= stylesheet_link_tag    "application", :media => "all" %>
 	  <%= javascript_include_tag "application" %>
 	  <%= csrf_meta_tags %>
@@ -21,9 +21,9 @@
 					<div id="nav">
 						<ul id="nav_left">
 							<li><%= link_to "Home", "/" %></li>
-							<li><%= link_to "Find a Restaurant", "restaurants" %></li>
+							<li><%= link_to "Find a Restaurant", "/restaurants" %></li>
 							<li>Order Now</li>
-							<li>Specials</li>
+							<li><%= link_to "Specials", "/specials" %></li>
 						</ul>
 
 						<ul id="nav_right">

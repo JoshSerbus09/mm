@@ -21,6 +21,7 @@
  header{
  	border-bottom: solid 2px black;
  	height: 190px;
+ 	position: relative;
  }
 
  #nav {
@@ -102,14 +103,14 @@
  	float: left;
  	width: 30%;
  	height: 85%;
- 	background-color: green;
+ 	background-color: #660066;
  }
 
  #content_main_right {
  	float: right;
  	width: 70%;
  	height: 85%;
- 	background-color: red;
+ 	background-color: #CCCC00;
  }
 
  html, body {
