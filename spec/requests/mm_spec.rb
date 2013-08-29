@@ -8,11 +8,6 @@ describe "Maverick Munchies"  do
 			page.should have_content('Maverick Munchies')
 		end
 
-		it "should have h2 'Find the food you want. Right Now'" do
-			visit "/"
-			page.should have_selector('h2', text: "Find the food you want. Right Now.")
-		end
-
 		it "should have title 'Maverick Munchies'" do
 			visit "/"
 			page.should have_selector('title', text: "Maverick Munchies")

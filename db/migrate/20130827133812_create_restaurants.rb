@@ -8,6 +8,8 @@ class CreateRestaurants < ActiveRecord::Migration
     	t.boolean :delivery
     	t.boolean :takeout
     	t.boolean :dinein
+
+      t.references :specials
       t.timestamps
     end
   end

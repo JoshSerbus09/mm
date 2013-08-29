@@ -3,8 +3,13 @@ Mm::Application.routes.draw do
   # first created -> highest priority.
 
   resources :restaurants do
-    
+
   end
+
+  resources :specials do
+  
+  end  
+
 
 
   # Sample of regular route:
